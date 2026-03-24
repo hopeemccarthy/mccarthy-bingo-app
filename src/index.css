@@ -1,0 +1,193 @@
+
+.classic-theme {
+  --primary-color: #005689; 
+  --secondary-color: #007cb9; 
+  --accent-color: #d5eeff;
+  --border-color: #ff895d; 
+}
+
+.pasta-theme {
+  --primary-color: #d63447; 
+  --secondary-color: #f57b51; 
+  --accent-color: #f6eedf;
+  --border-color: #d1cebd; 
+}
+
+.disney-theme {
+  --primary-color: #27296d; 
+  --secondary-color: #5e63b6; 
+  --accent-color: #f5c7f7 ;
+  --border-color: #a393eb; 
+}
+
+.survivor-theme {
+  --primary-color: #085f63; 
+  --secondary-color: #49beb7; 
+  --accent-color: #facf5a;
+  --border-color: #ff5959; 
+}
+
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 0px;
+    background-color: #d5eeff;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+ 
+  .status {
+    margin-bottom: 10px;
+  }
+  
+ 
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .winner {
+    width: 100%;
+    margin: 35px 0;
+  }
+
+  .winner-status {
+    padding: 15px 155px;
+    background-image: linear-gradient(to right, var(--border-color), var(--secondary-color), var(--border-color));
+    color: var(--accent-color);
+    font-size: 28px;
+    font-weight: bold;
+    border: 3px solid var(--primary-color);
+  }
+
+  .header {
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 15px 0px 15px 0px;
+    min-height: 50px;
+    color: var(--accent-color);
+  }
+
+  .header-rules {
+    float: right;
+    padding-right: 35px;
+    font-size: 16px;
+  }
+
+  .header-name {
+    float: left;
+    font-size: 42px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+  
+  .sub-header {
+    background-color: var(--border-color);
+    height: 5px;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  .board {
+    vertical-align: middle;
+    width: 50%;
+    float: right;
+  }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .board-row {
+    text-align: right;
+    padding-right: 15vw;
+    float:left;
+  }
+
+  .square {
+    background: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    width: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    color: var(--accent-color);
+    vertical-align: middle;
+  }
+
+  .square.x-square {
+    color: var(--border-color);
+    font-size: 20px;
+  }
+  .square.x-square:hover {
+    border: 1px solid var(--border-color);
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  .square:hover {
+    border: 3px solid var(--border-color);
+  }
+
+  .game-info {
+    display: none;
+  }
+
+  .game-controls {
+    float: right;
+    text-align: right;
+    width: 30%;
+    margin-right: 5%;
+  }
+
+  .btn {
+    background-color: var(--border-color);
+    color: var(--primary-color);
+    padding: 12px 40px 12px 40px;
+    border: 2px solid var(--primary-color);
+    font-weight: bold;
+    margin: 22px;
+    cursor: pointer;
+  }
+
+  .number-called {
+    color: var(--border-color);
+    border: 2px solid var(--border-color);
+    font-weight: bold;
+  }
+  .number-called > .header {
+    min-height: 20px;
+    height: 20px;
+  }
+  
+   .current-number {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+    height: 30px;
+  }
+
+  .number-selection-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  

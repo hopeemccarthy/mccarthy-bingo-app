@@ -1,3 +1,7 @@
+This is a simple "bingo" game built from the starting points of the React tutorial "tic-tac-toe" game.
+Click the button to call a new number, and select it if it is on the board. 
+Different themes can be chosen to change the data & colors. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
